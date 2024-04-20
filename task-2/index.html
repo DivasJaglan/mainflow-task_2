@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="styleReset.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Simple Webpage</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About The HTML Structure</h2>
+        <dl>
+          <dt>Document Type Declaration (DOCTYPE):</dt>
+          <dd>
+            This declaration is not an HTML tag; it's an instruction to the web
+            browser about the version of HTML in which the page is written. For
+            example:
+            <code>&lt;!DOCTYPE html&gt;</code>
+          </dd>
+
+          <dt>HTML Element:</dt>
+          <dd>
+            The root element that wraps all the content on the entire page. It's
+            denoted by &lt;html&gt; tag and contains two main sections: the
+            &lt;head&gt; and the &lt;body&gt;.
+          </dd>
+
+          <dt>Head Section:</dt>
+          <dd>
+            This section contains meta-information about the HTML document, such
+            as the page title, links to CSS stylesheets, scripts, and other meta
+            tags. It's enclosed within the &lt;head&gt; tags. Example:
+            <code></code>
+              <pre>
+                &lt;head&gt;
+                  &lt;title&gt;Document Title&lt;/title&gt;
+                  &lt;link rel="stylesheet" type="text/css" href="styles.css" /&gt;
+                  &lt;!-- Other meta-information goes here --&gt;
+                &lt;/head&gt;</pre>
+            </code>
+          </dd>
+
+          <dt>Body Section:</dt>
+          <dd>This section contains the actual content of the web page, such as text, images, videos, and other elements. It's enclosed within the &lt;body&gt; tags.
+            Example:
+        <code><pre>
+            &lt;body&gt;
+              &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+              &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+              &lt;!-- Other content goes here --&gt;
+            &lt;/body&gt;
+        </pre>
+        </code></dd>
+
+          <dt>
+            HTML Tags:
+          </dt>
+          <dd>Tags are used to define elements within an HTML document. They consist of an opening tag, content, and a closing tag. Some tags, like &lt;img&gt; for images or <br> for line breaks, are self-closing.
+            Example:
+        <code><pre>
+            &ltdot;p&gt;This is a paragraph of text.&ltdot;/p&gt;
+            &ltdot;img src="image.jpg" alt="Description"&gt;
+            </pre></code></dd>
+
+          <dt>Attributes:</dt>
+          <dd>HTML elements can have attributes that provide additional information about the element. Attributes are placed within the opening tag and provide information such as the source of an image, the URL of a link, etc.
+            Example:
+        <code><pre>
+            &lt;img src="image.jpg" alt="Description"&gt;
+            &lt;a href="https://example.com"&gt;Link Text&lt;/a&gt;
+            </pre></code></dd>
+        </dl>
+
+        <p>
+            This is a basic overview of the structure of HTML.
+            There are more elements, attributes, and techniques for creating dynamic and interactive web pages.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Made by</h2>
+        <p>Divas Jaglan</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Simple Webpage</p>
+    </footer>
+  </body>
+</html>
